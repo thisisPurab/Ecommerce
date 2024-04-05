@@ -1,8 +1,8 @@
 import React from "react";
-import Herosection from "./components/Herosection";
-import Services from "./components/Services";
-import TrustedBy from "./components/TrustedBy";
-import FeaturedProducts from "./components/FeaturedProducts";
+import Herosection from "../components/Herosection";
+import Services from "../components/Services";
+import TrustedBy from "../components/TrustedBy";
+import FeaturedProducts from "../components/FeaturedProducts";
 
 const Home = () => {
     return (

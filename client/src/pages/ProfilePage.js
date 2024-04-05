@@ -1,11 +1,11 @@
 import React, { useContext, useEffect, useState } from "react";
 import { getAuth, signOut } from "firebase/auth";
 import { useNavigate } from "react-router-dom";
-import { AuthContext } from "./context/AuthContext";
+import { AuthContext } from "../context/AuthContext";
 import { collection, query, where, getDocs } from "firebase/firestore";
-import { db } from "./firebaseconfig";
-import OrderHistory from "./components/OrderHistory";
-import pfp from "./Assets/pfp.png";
+import { db } from "../firebaseconfig";
+import OrderHistory from "../components/OrderHistory";
+import pfp from "../Assets/pfp.png";
 
 const ProfilePage = () => {
     const { currentUser, dispatch } = useContext(AuthContext);

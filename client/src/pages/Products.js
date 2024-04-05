@@ -1,7 +1,7 @@
 import React from "react";
-import FilterSection from "./components/FilterSection";
-import SortSection from "./components/SortSection";
-import ProductView from "./components/ProductView";
+import FilterSection from "../components/FilterSection";
+import SortSection from "../components/SortSection";
+import ProductView from "../components/ProductView";
 
 const Products = () => {
     return (

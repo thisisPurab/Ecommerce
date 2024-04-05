@@ -1,10 +1,10 @@
 import React, { useContext } from "react";
-import { CartContext } from "./context/CartContext";
-import CartItem from "./components/CartItem";
+import { CartContext } from "../context/CartContext";
+import CartItem from "../components/CartItem";
 import { NavLink } from "react-router-dom";
-import FormatPrice from "./helpers/FormatPrice";
+import FormatPrice from "../helpers/FormatPrice";
 import { doc, setDoc } from "firebase/firestore";
-import { db } from "./firebaseconfig";
+import { db } from "../firebaseconfig";
 import { getAuth } from "firebase/auth";
 import { loadStripe } from "@stripe/stripe-js";
 

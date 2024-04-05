@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import SingleProduct from "../SingleProduct";
+import SingleProduct from "../pages/SingleProduct";
 import FormatPrice from "../helpers/FormatPrice";
 
 const Card = (ele) => {
