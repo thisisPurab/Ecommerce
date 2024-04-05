@@ -1,9 +1,8 @@
 const express = require("express");
+require("dotenv").config();
 const app = express();
 const cors = require("cors");
-const stripe = require("stripe")(
-    "sk_test_51P1Tp0SFod5TIEmUNTY8Y0QlSYz7tJ8GhA4TEP3jM107VYWcPQGkDGu9Ez5Y1vyeZrfzdT8zgwwE6F7kPqRnepm500Xs007fNs"
-);
+const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY);
 
 app.use(express.json());
 app.use(cors());
@@ -42,6 +41,6 @@ app.post("/api/create-checkout-session", async (req, res) => {
     }
 });
 
-app.listen(8000, () => {
+app.listen(process.env.PORT, () => {
     console.log("Server started on port 8000");
 });
