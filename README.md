@@ -43,8 +43,8 @@ Discover a world of convenience with our E-commerce website, offering a vast arr
 ## 🔗Links
 
 -   [GitHub Repository](https://github.com/thisisPurab/Ecommerce.git)
--   [Demo Video]()
--   [Drive Link to Screenshots of your project]()
+-   [Demo Video](https://drive.google.com/uc?id=10mlrBu4i-lrmK2F8SDMPaY2IIlusMPFU)
+-   [Drive Link to Screenshots of your project](https://drive.google.com/drive/folders/148Etk7Tvbypq3xEFi7qWHlrenGi6sw1K?usp=drive_link)
 
 <!-- Add any more links/resources you used for your project -->
 
@@ -61,7 +61,7 @@ Discover a world of convenience with our E-commerce website, offering a vast arr
 #### Server (Back-end)
 
 -   ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-
+    uc?id=
 -   ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
 
 #### Database
