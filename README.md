@@ -16,9 +16,8 @@
 -   [Description](#description)
 -   [Links](#links)
 -   [Tech Stack](#tech-stack)
--   [Progress](#progress)
+-   [Project Setup](#project-setup)
 -   [Usage](#usage)
--   [Screenshots](#screenshots)
 
 </details>
 
@@ -68,7 +67,7 @@ Discover a world of convenience with our E-commerce website, offering a vast arr
 
 -   <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a>
 
-## 🛠Project Setup
+## 🛠Project-Setup
 
 > For Web-App
 
